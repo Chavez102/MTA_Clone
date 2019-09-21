@@ -2,6 +2,11 @@
   "name": "MTA_CloneApp",
   "version": "0.0.1",
   "private": true,
+  "rnpm": {
+    "assets": [
+    "./assets/Fonts"
+    ]
+  },
   "scripts": {
     "start": "react-native start",
     "test": "jest",

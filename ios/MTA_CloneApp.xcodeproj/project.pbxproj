@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* MTA_CloneAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MTA_CloneAppTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -16,6 +15,12 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* MTA_CloneAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MTA_CloneAppTests.m */; };
+		6AAAAD5F79E5406BBF3199E7 /* Sarpanch-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CEED98E054C2C96430D34 /* Sarpanch-Black.ttf */; };
+		204F5B7B835E49D4B114924C /* Sarpanch-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAEBDE09A37E498A8E260644 /* Sarpanch-Bold.ttf */; };
+		2B66A63F7A85499397DCAD5C /* Sarpanch-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C77A675D903F4F1C8F0C3B60 /* Sarpanch-ExtraBold.ttf */; };
+		3BE4FB5EFF22468080047113 /* Sarpanch-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37161AB049CC442EB8F5CBBC /* Sarpanch-Medium.ttf */; };
+		50C7201A9E46453EB5F1FF00 /* Sarpanch-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9DE3727BD934B38B4C71CBC /* Sarpanch-Regular.ttf */; };
+		F7DB47338F764B25A6088235 /* Sarpanch-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90D4806A33CE44AC99327584 /* Sarpanch-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		2D02E4901E0B4A5D006451C7 /* MTA_CloneApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTA_CloneApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		2A9CEED98E054C2C96430D34 /* Sarpanch-Black.ttf */ = {isa = PBXFileReference; name = "Sarpanch-Black.ttf"; path = "../assets/Fonts/Sarpanch-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EAEBDE09A37E498A8E260644 /* Sarpanch-Bold.ttf */ = {isa = PBXFileReference; name = "Sarpanch-Bold.ttf"; path = "../assets/Fonts/Sarpanch-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C77A675D903F4F1C8F0C3B60 /* Sarpanch-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Sarpanch-ExtraBold.ttf"; path = "../assets/Fonts/Sarpanch-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		37161AB049CC442EB8F5CBBC /* Sarpanch-Medium.ttf */ = {isa = PBXFileReference; name = "Sarpanch-Medium.ttf"; path = "../assets/Fonts/Sarpanch-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E9DE3727BD934B38B4C71CBC /* Sarpanch-Regular.ttf */ = {isa = PBXFileReference; name = "Sarpanch-Regular.ttf"; path = "../assets/Fonts/Sarpanch-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		90D4806A33CE44AC99327584 /* Sarpanch-SemiBold.ttf */ = {isa = PBXFileReference; name = "Sarpanch-SemiBold.ttf"; path = "../assets/Fonts/Sarpanch-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +151,7 @@
 				00E356EF1AD99517003FC87E /* MTA_CloneAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				258BF6ED534D4921811F2000 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -156,6 +168,20 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		258BF6ED534D4921811F2000 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				2A9CEED98E054C2C96430D34 /* Sarpanch-Black.ttf */,
+				EAEBDE09A37E498A8E260644 /* Sarpanch-Bold.ttf */,
+				C77A675D903F4F1C8F0C3B60 /* Sarpanch-ExtraBold.ttf */,
+				37161AB049CC442EB8F5CBBC /* Sarpanch-Medium.ttf */,
+				E9DE3727BD934B38B4C71CBC /* Sarpanch-Regular.ttf */,
+				90D4806A33CE44AC99327584 /* Sarpanch-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -240,7 +266,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -293,6 +319,12 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				6AAAAD5F79E5406BBF3199E7 /* Sarpanch-Black.ttf in Resources */,
+				204F5B7B835E49D4B114924C /* Sarpanch-Bold.ttf in Resources */,
+				2B66A63F7A85499397DCAD5C /* Sarpanch-ExtraBold.ttf in Resources */,
+				3BE4FB5EFF22468080047113 /* Sarpanch-Medium.ttf in Resources */,
+				50C7201A9E46453EB5F1FF00 /* Sarpanch-Regular.ttf in Resources */,
+				F7DB47338F764B25A6088235 /* Sarpanch-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
