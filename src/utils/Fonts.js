@@ -1,5 +1,5 @@
 export const Fonts = {
 
-Sarpanch: 'Sarpanch-Bold'
-
+Sarpanch: 'Sarpanch-Bold',
+Nimbus: 'NimbusSansNovusT_Bold',
 }

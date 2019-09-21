@@ -33,9 +33,15 @@ import {
 const App = () => {
   return (
     <View style={styles.Background_Style}>
-      <Text style={styles.Text_Style}>Bryan</Text>
+      <View style={styles.Title}>
 
-      <Text>eTix</Text>
+         <Text style={styles.Text_Style}>MTA</Text>
+
+        <Text style={styles.Text_Style}>eTix</Text>
+
+        
+      </View>
+    
     </View>
   );
 };
@@ -45,11 +51,18 @@ const styles = StyleSheet.create({
     backgroundColor:'#223266',
     flex:1,
   },
+  Title:{
+    flexDirection:'row',
+  alignItems:'center',
+  flex:1,
+  justifyContent:'center',
+  },
   Text_Style:{
     fontFamily: Fonts.Sarpanch,
+    fontSize:70,
     textAlign: 'center',
-    color:'#f7a804',
-    fontSize:100,
+    color:'#F7A804',
+  
 
   }
  
